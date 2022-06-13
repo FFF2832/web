@@ -43,14 +43,14 @@ nav{
 
 .bgs .bg1{background-image: url(../image/1_山水.jpg);}
 .bgs .bg2{background-image: url(../image/2_斷樹.jpg);}
-.bgs .bg3{background-image: url(../image/3_摔下來.jpg);}
+.bgs .bg3{background-image: url(../image/3_修正4.jpg);}
 .bgs .bg4{background-image: url(../image/4_蛇.jpg);}
-.bgs .bg5{background-image: url(../image/5_獅子.jpg);}
-.bgs .bg6{background-image: url(../image/6_老虎.jpg);}
+.bgs .bg5{background-image: url(../image/6_老虎.jpg);}
+.bgs .bg6{background-image: url(../image/5_獅子.jpg);}
 .bgs .bg7{background-image: url(../image/7_運木頭.jpg);}
 .bgs .bg8{background-image: url(../image/8_爸媽說話.jpg);}
 .bgs .bg9{background-image: url(../image/9_最後一張.jpg);}
-.bgs .bg10{background-image: url(../image/9_最後一張.jpg);}
+.bgs .bg10{background-image: url(../image/10_卡牌.jpg);}
 .bgs .active{
     opacity: 1;
 }
@@ -191,8 +191,8 @@ nav{
 }
 .audios{
     position: fixed;
-    left:100px;   
-    bottom: 100px;
+    left:1100px;   
+    bottom: 300px;
     width: 400px;
     height: 300px;
 }
@@ -274,7 +274,7 @@ nav{
         opacity: 1;
     }
     50%{
-        bottom:170px;
+        bottom:130px;
         opacity: 1;
     }
     100%{
@@ -311,11 +311,11 @@ nav{
     }
 }
 .ele{
-    /* position: absolute; */
+    position: absolute;
     width: 400px;
     height: 400px;
-    bottom: 302px;
-    left: 500px;
+    bottom: -200px;
+    left: 750px;
     margin-top: 50px;
     margin-left: 70px;
     background-image: url(../image/ele2.png);
@@ -336,7 +336,7 @@ nav{
     
    
     /* -webkit-transform: rotate(-10deg); */
-    transform:translateX(200px);
+    transform:translateX(400px);
     opacity:1;
     }
     25%{
@@ -413,7 +413,7 @@ nav{
 	/* top: 0px; */
 	left: 60px;
     bottom: -620px;
-    margin-left: 650px;
+    margin-left: 500px;
     margin-bottom: 450px;
 
 	background-repeat: no-repeat;
@@ -428,7 +428,7 @@ nav{
        
       
         /* -webkit-transform: rotate(-10deg); */
-        transform:translateX(-700px);
+        transform:translateX(-500px);
         opacity:1;
 	}
 	50%{
@@ -524,7 +524,7 @@ nav{
 	height: 500px;
 	bottom: -0px;
 	left: -250px;
-    margin-left: 530px;
+    margin-left: 850px;
     /* margin-bottom: 150px; */
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -556,7 +556,7 @@ nav{
 	height: 500px;
 	bottom: -0px;
 	left: -250px;
-    margin-left: 530px;
+    margin-left: 230px;
     /* margin-bottom: 150px; */
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -583,6 +583,122 @@ nav{
 	100%{
 		left:0px;
  
+    
+    opacity:1;  
+	}
+}
+.elepa{
+	position: absolute;
+	background-image: url(../image/6_爸爸搬木頭_頭_上色.png);
+	width: 600px;
+	height: 600px;
+	bottom: 0px;
+	left: -100px;
+    margin-left: 720px;
+    margin-bottom: 0px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	animation-name: elepaAni;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+@keyframes elepaAni{
+	0%{
+       
+        left:0px;
+        -webkit-transform: rotate(-5deg);
+        
+        opacity:1;
+	}
+	50%{
+        
+        left:0px;
+        -webkit-transform: rotate(10deg);
+       
+        opacity:1;
+	}
+	100%{
+		left:0px;
+    -webkit-transform: rotate(-5deg);
+    
+    opacity:1;  
+	}
+}
+.elef{
+	position: absolute;
+	background-image: url(../image/7_爸爸媽媽說話_爸媽_上色.png);
+	width: 850px;
+	height: 600px;
+	bottom: 0px;
+	left: -100px;
+    margin-left: 120px;
+
+    margin-bottom: -70px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	animation-name: elefAni;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+@keyframes elefAni{
+	0%{
+       
+        left:0px;
+        -webkit-transform: rotate(0deg);
+        
+        opacity:1;
+	}
+	50%{
+        
+        left:0px;
+        -webkit-transform: rotate(5deg);
+       
+        opacity:1;
+	}
+	100%{
+		left:0px;
+    -webkit-transform: rotate(0deg);
+    
+    opacity:1;  
+	}
+}
+.elef2{
+	position: absolute;
+	background-image: url(../image/8_開心回家＿上色.png);
+	width: 600px;
+	height: 600px;
+	bottom: 0px;
+	left: -100px;
+    margin-left: 400px;
+
+    margin-bottom: -200px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	animation-name: elefAni;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+@keyframes elefAni{
+	0%{
+       
+        left:0px;
+        -webkit-transform: rotate(0deg);
+        
+        opacity:1;
+	}
+	50%{
+        
+        left:0px;
+        -webkit-transform: rotate(5deg);
+       
+        opacity:1;
+	}
+	100%{
+		left:0px;
+    -webkit-transform: rotate(0deg);
     
     opacity:1;  
 	}
@@ -663,10 +779,14 @@ nav{
 
     width: 240px;
     height: 320px;
-    position: relative;
-    perspective: 1000px;
-    margin: 40px auto;
+    position: absolute;
+    top:200px;
+
     
+    perspective: 1000px;
+    margin: 340px auto;
+    margin-left: 100px;
+    margin-top: 100px;
 }
 
 .cover, .back{
@@ -705,4 +825,10 @@ footer{
     color: #fff;
     height: 50px;
     line-height: 50px;
+  }
+  .article10{
+    margin-top: 100px;
+  }
+  .heart{
+    margin-top: 100px;
   }
