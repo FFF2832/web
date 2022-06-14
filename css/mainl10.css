@@ -192,7 +192,7 @@ nav{
 .audios{
     position: fixed;
     left:1100px;   
-    bottom: 300px;
+    bottom: 350px;
     width: 400px;
     height: 300px;
 }
@@ -421,7 +421,7 @@ nav{
 	background-position: center center;
 	animation-name: ele2Ani;
 	animation-duration: 5s;
-	animation-iteration-count: 2;
+	animation-iteration-count: 1;
 }
 @keyframes ele2Ani{
 	0%{
@@ -460,7 +460,7 @@ nav{
     animation-name:ele3Ani ;
     animation-duration: 3s;
     /* 播放一次就停 */
-    animation-iteration-count: 2;
+    animation-iteration-count: 1;
 }
 
 @keyframes ele3Ani{

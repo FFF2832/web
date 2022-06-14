@@ -151,7 +151,7 @@ $(window).on('activate.bs.scrollspy',function(e){
         $('.bgs .bg').removeClass('active');
         $('.bgs .bg'+num).addClass('active');
      
-    },500);
+    },400);
 
 
 });
